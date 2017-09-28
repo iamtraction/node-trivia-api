@@ -1,0 +1,25 @@
+{
+  "name": "trivia-api",
+  "version": "0.0.1",
+  "description": "A trivia API nodejs module for getting trivia questions in all your fancy projects.",
+  "keywords": [ "trivia", "trivia-api", "node-trivia-api", "trivia-api-wrapper", "node-trivia-api-wrapper", "api", "wrapper", "api-wrapper" ],
+  "homepage": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo No test scripts specified && exit 1",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snkrsnkampa/node-trivia-api"
+  },
+  "author": "Sankarsan Kampa (https://sankarsankampa.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/snkrsnkampa/node-trivia-api/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^4.7.2"
+  }
+}
