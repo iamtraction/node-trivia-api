@@ -1,13 +1,22 @@
 {
   "name": "trivia-api",
-  "version": "0.0.1",
-  "description": "A trivia API nodejs module for getting trivia questions in all your fancy projects.",
-  "keywords": [ "trivia", "trivia-api", "node-trivia-api", "trivia-api-wrapper", "node-trivia-api-wrapper", "api", "wrapper", "api-wrapper" ],
+  "version": "1.0.0",
+  "description": "A nodejs module for getting trivia questions in all your fancy projects, in a pretty simple way.",
+  "keywords": [
+    "trivia",
+    "trivia-api",
+    "node-trivia-api",
+    "trivia-api-wrapper",
+    "node-trivia-api-wrapper",
+    "api",
+    "wrapper",
+    "api-wrapper"
+  ],
   "homepage": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo No test scripts specified && exit 1",
-    "start": "node ."
+    "eslint": "./node_modules/.bin/eslint .",
+    "test": "npm run eslint"
   },
   "repository": {
     "type": "git",
@@ -18,7 +27,9 @@
   "bugs": {
     "url": "https://github.com/snkrsnkampa/node-trivia-api/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "request": "^2.83.0"
+  },
   "devDependencies": {
     "eslint": "^4.7.2"
   }
