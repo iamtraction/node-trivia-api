@@ -1,6 +1,6 @@
 {
   "name": "trivia-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A nodejs module for getting trivia questions in all your fancy projects, in a pretty simple way.",
   "keywords": [
     "trivia",
@@ -28,7 +28,7 @@
     "url": "https://github.com/snkrsnkampa/node-trivia-api/issues"
   },
   "dependencies": {
-    "request": "^2.83.0"
+    "got": "^8.1.0"
   },
   "devDependencies": {
     "eslint": "^4.7.2"
