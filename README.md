@@ -1,9 +1,14 @@
 # Trivia API
 
-[![GitHub release](https://img.shields.io/github/release/snkrsnkampa/node-trivia-api.svg?style=flat)](https://github.com/snkrsnkampa/node-trivia-api/releases)
-[![license](https://img.shields.io/github/license/snkrsnkampa/node-trivia-api.svg)](LICENSE)
+[![NPM Version](https://img.shields.io/npm/v/trivia-api.svg?style=flat)](https://www.npmjs.com/package/trivia-api)
+[![NPM Downloads](https://img.shields.io/npm/dt/trivia-api.svg?style=flat)](https://www.npmjs.com/package/trivia-api)
+[![Dependencies](https://david-dm.org/k3rn31p4nic/node-trivia-api.svg)](https://david-dm.org/k3rn31p4nic/node-trivia-api)
+[![Known Vulnerabilities](https://snyk.io/test/github/k3rn31p4nic/node-trivia-api/badge.svg)](https://snyk.io/test/github/k3rn31p4nic/node-trivia-api)
+[![license](https://img.shields.io/github/license/k3rn31p4nic/node-trivia-api.svg)](LICENSE)
+[![PayPal](https://img.shields.io/badge/donate-PayPal-003086.svg)](https://paypal.me/snkrsnkampa)
+[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/k3rn31p4nic)  
 
-A nodejs module for getting trivia questions in all your fancy projects, in a pretty simple way.
+A Node.JS module for getting trivia questions in all your fancy projects, in a pretty simple way.
 
 ## Classes
 
@@ -81,3 +86,7 @@ trivia.getQuestions(options)
   .then(questions => console.log(questions))
   .catch(console.error);
 ```
+
+> If you liked this project you can **⭐ Star** it on
+> [GitHub](https://github.com/k3rn31p4nic/node-trivia-api) and/or
+> [send a thank you note to me](https://saythanks.io/to/k3rn31p4nic).  
