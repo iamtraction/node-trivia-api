@@ -73,8 +73,9 @@ Returs a trivia question from the given options.
 **Example**  
 ```js
 let options = {
-  type: boolean
+  type: 'boolean',
   amount: 10,
+  difficulty: 'hard'
 };
 trivia.getQuestions(options)
   .then(questions => console.log(questions))
